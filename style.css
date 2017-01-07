@@ -2048,9 +2048,9 @@ body:not(.search-results) .entry-summary > :last-child,
 }
 
 .page-header {
-	border-top: 4px solid #1a1a1a;
 	margin: 0 7.6923% 3.5em;
 	padding-top: 1.75em;
+	background-color: transparent;
 }
 
 body.error404 .page-header,
@@ -4245,6 +4245,16 @@ section#graphic_box{
  
 }
 
+/*Entry header - post page */
+.entry-header{
+	background-color: rgba(0,0,0, .0);
+}
+h2.entry-title{
+	font-family: 'sacramento', cursive;
+}
+.page-header{
+	background-color: none;
+}
 
 
 
